@@ -12,7 +12,6 @@ version = '1.0'
 REQUIRES = [
     "base58==1.0.3",
     "base58check==1.0.2",
-    "cytoolz==0.9.0.1",
     "eth-utils==1.7.0",
     "pycrypto==2.6.1",
     "pycryptodome==3.9.0",
