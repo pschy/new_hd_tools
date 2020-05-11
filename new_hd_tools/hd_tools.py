@@ -9,7 +9,7 @@ __author__ = 'xiawu@newtonproject.org'
 import logging
 import base58
 import binascii
-from utils.crypto import HDPrivateKey, HDPublicKey, HDKey
+from .crypto import HDPrivateKey, HDPublicKey, HDKey
 
 
 logger = logging.getLogger(__name__)

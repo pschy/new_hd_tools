@@ -4,10 +4,10 @@
 """setup.py: setuptools control."""
 
 
-from setuptools import setup
+import setuptools
 
 
-version = '1.0'
+version = '0.1.0'
 
 REQUIRES = [
     "base58==1.0.3",
@@ -18,14 +18,17 @@ REQUIRES = [
     "two1",
 ]
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
-setup(
+setuptools.setup(
     name="new_hd_tools",
-    packages=["new_hd_tools"],
+    packages=setuptools.find_packages(),
     version=version,
     install_requires=REQUIRES,
     description="HD wallet Tools.",
-    long_description="",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author="pschy",
     author_email="cj82@qq.com",
     url="https://github.com/pschy/new_hd_tools",

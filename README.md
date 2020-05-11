@@ -3,10 +3,10 @@
 
 ## 1. Installtion
 `
-pip install hd_tools
+pip install new_hd_tools
 `
 
 ## 2. Usages
 `
-from hd_tools import *
+from new_hd_tools import hd_tools, crypto
 `
