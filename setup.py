@@ -14,7 +14,7 @@ REQUIRES = [
     "base58check==1.0.2",
     "eth-utils==1.7.0",
     "pycrypto==2.6.1",
-    "pycryptodome==3.9.0",
+    "pycryptodome==3.19.1",
     "two1",
 ]
 
